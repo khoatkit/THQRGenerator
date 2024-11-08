@@ -1,0 +1,1293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner" xmlns="http://schemas.microsoft.com/sqlserver/reporting/2008/01/reportdefinition">
+  <DataSources>
+    <DataSource Name="THQRGeneratorModels">
+      <ConnectionProperties>
+        <DataProvider>System.Data.DataSet</DataProvider>
+        <ConnectString>/* Local Connection */</ConnectString>
+      </ConnectionProperties>
+      <rd:DataSourceID>c07de75d-207e-4d2f-b628-ce2c7124f34e</rd:DataSourceID>
+    </DataSource>
+  </DataSources>
+  <DataSets>
+    <DataSet Name="DiemDanh">
+      <Fields>
+        <Field Name="Check1">
+          <DataField>Check1</DataField>
+          <rd:TypeName>System.Boolean</rd:TypeName>
+        </Field>
+        <Field Name="Check2">
+          <DataField>Check2</DataField>
+          <rd:TypeName>System.Boolean</rd:TypeName>
+        </Field>
+        <Field Name="HoTen">
+          <DataField>HoTen</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ID">
+          <DataField>ID</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Image">
+          <DataField>Image</DataField>
+          <rd:TypeName>System.Byte[]</rd:TypeName>
+        </Field>
+        <Field Name="Info">
+          <DataField>Info</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="QRCode">
+          <DataField>QRCode</DataField>
+          <rd:TypeName>System.Byte[]</rd:TypeName>
+        </Field>
+        <Field Name="SoPhieu">
+          <DataField>SoPhieu</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>THQRGeneratorModels</DataSourceName>
+        <CommandText>/* Local Query */</CommandText>
+      </Query>
+      <rd:DataSetInfo>
+        <rd:DataSetName>THQRGenerator.Models</rd:DataSetName>
+        <rd:TableName>DiemDanh</rd:TableName>
+        <rd:ObjectDataSourceType>THQRGenerator.Models.DiemDanh, THQRGenerator, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</rd:ObjectDataSourceType>
+      </rd:DataSetInfo>
+    </DataSet>
+  </DataSets>
+  <Body>
+    <ReportItems>
+      <Tablix Name="Tablix1">
+        <TablixBody>
+          <TablixColumns>
+            <TablixColumn>
+              <Width>7.48031in</Width>
+            </TablixColumn>
+          </TablixColumns>
+          <TablixRows>
+            <TablixRow>
+              <Height>5.31496in</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Rectangle Name="Rectangle1">
+                      <ReportItems>
+                        <Rectangle Name="Frame">
+                          <ReportItems>
+                            <Textbox Name="Info">
+                              <KeepTogether>true</KeepTogether>
+                              <Paragraphs>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value>ĐẠI HỘI ĐẠI BIỂU CÔNG ĐOÀN</Value>
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontSize>9pt</FontSize>
+                                        <FontWeight>Bold</FontWeight>
+                                        <Color>#0070c0</Color>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style>
+                                    <TextAlign>Center</TextAlign>
+                                  </Style>
+                                </Paragraph>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value>CÔNG TY CỔ PHẦN CẤP NƯỚC TÂN HÒA</Value>
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontSize>9pt</FontSize>
+                                        <FontWeight>Bold</FontWeight>
+                                        <Color>#0070c0</Color>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style>
+                                    <TextAlign>Center</TextAlign>
+                                  </Style>
+                                </Paragraph>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value>LẦN THỨ III, NHIỆM KỲ 2022-2027</Value>
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontSize>9pt</FontSize>
+                                        <FontWeight>Bold</FontWeight>
+                                        <Color>#0070c0</Color>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style>
+                                    <TextAlign>Center</TextAlign>
+                                  </Style>
+                                </Paragraph>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value />
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontSize>9pt</FontSize>
+                                        <FontWeight>Bold</FontWeight>
+                                        <Color>#0070c0</Color>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style>
+                                    <TextAlign>Center</TextAlign>
+                                  </Style>
+                                </Paragraph>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value />
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontWeight>Bold</FontWeight>
+                                        <Color>#0070c0</Color>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style>
+                                    <TextAlign>Center</TextAlign>
+                                  </Style>
+                                </Paragraph>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value />
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontWeight>Bold</FontWeight>
+                                        <Color>#0070c0</Color>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style>
+                                    <TextAlign>Center</TextAlign>
+                                  </Style>
+                                </Paragraph>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value />
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontWeight>Bold</FontWeight>
+                                        <Color>#0070c0</Color>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style>
+                                    <TextAlign>Center</TextAlign>
+                                  </Style>
+                                </Paragraph>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value />
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontWeight>Bold</FontWeight>
+                                        <Color>#0070c0</Color>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style>
+                                    <TextAlign>Center</TextAlign>
+                                  </Style>
+                                </Paragraph>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value />
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontWeight>Bold</FontWeight>
+                                        <Color>#0070c0</Color>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style>
+                                    <TextAlign>Center</TextAlign>
+                                  </Style>
+                                </Paragraph>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value />
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontWeight>Bold</FontWeight>
+                                        <Color>#0070c0</Color>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style>
+                                    <TextAlign>Center</TextAlign>
+                                  </Style>
+                                </Paragraph>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value />
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontWeight>Bold</FontWeight>
+                                        <Color>#0070c0</Color>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style>
+                                    <TextAlign>Center</TextAlign>
+                                  </Style>
+                                </Paragraph>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value>THẺ ĐẠI BIỂU</Value>
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontSize>22pt</FontSize>
+                                        <FontWeight>Bold</FontWeight>
+                                        <Color>Red</Color>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style>
+                                    <TextAlign>Center</TextAlign>
+                                  </Style>
+                                </Paragraph>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value />
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontWeight>Bold</FontWeight>
+                                        <Color>#0070c0</Color>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style>
+                                    <TextAlign>Center</TextAlign>
+                                  </Style>
+                                </Paragraph>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value>=Fields!HoTen.Value</Value>
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontSize>15pt</FontSize>
+                                        <FontWeight>Bold</FontWeight>
+                                        <Color>#0070c0</Color>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style>
+                                    <TextAlign>Center</TextAlign>
+                                  </Style>
+                                </Paragraph>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value xml:space="preserve"> </Value>
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontSize>15pt</FontSize>
+                                        <FontWeight>Normal</FontWeight>
+                                        <Color>#0070c0</Color>
+                                      </Style>
+                                    </TextRun>
+                                    <TextRun>
+                                      <Value>=Fields!Info.Value</Value>
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontSize>13pt</FontSize>
+                                        <Color>#0070c0</Color>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style>
+                                    <TextAlign>Center</TextAlign>
+                                  </Style>
+                                </Paragraph>
+                              </Paragraphs>
+                              <Top>0.3cm</Top>
+                              <Left>0.3cm</Left>
+                              <Height>10.9cm</Height>
+                              <Width>6.9cm</Width>
+                              <Style>
+                                <Border>
+                                  <Style>None</Style>
+                                </Border>
+                                <PaddingLeft>2pt</PaddingLeft>
+                                <PaddingRight>2pt</PaddingRight>
+                                <PaddingTop>2pt</PaddingTop>
+                                <PaddingBottom>2pt</PaddingBottom>
+                              </Style>
+                            </Textbox>
+                            <Image Name="QRCode">
+                              <Source>Database</Source>
+                              <Value>=Fields!QRCode.Value</Value>
+                              <MIMEType>image/jpeg</MIMEType>
+                              <Sizing>FitProportional</Sizing>
+                              <Top>8cm</Top>
+                              <Left>2.25cm</Left>
+                              <Height>3cm</Height>
+                              <Width>3cm</Width>
+                              <ZIndex>1</ZIndex>
+                              <Style>
+                                <Border>
+                                  <Style>None</Style>
+                                </Border>
+                              </Style>
+                            </Image>
+                            <Image Name="Image">
+                              <Source>Embedded</Source>
+                              <Value>cdvn</Value>
+                              <MIMEType>image/jpeg</MIMEType>
+                              <Sizing>FitProportional</Sizing>
+                              <Top>2.2cm</Top>
+                              <Left>2.75cm</Left>
+                              <Height>2cm</Height>
+                              <Width>2cm</Width>
+                              <ZIndex>2</ZIndex>
+                              <Style>
+                                <Border>
+                                  <Style>None</Style>
+                                </Border>
+                              </Style>
+                            </Image>
+                          </ReportItems>
+                          <KeepTogether>true</KeepTogether>
+                          <Top>1cm</Top>
+                          <Left>1cm</Left>
+                          <Height>11.5cm</Height>
+                          <Width>7.5cm</Width>
+                          <Style>
+                            <Border>
+                              <Color>#5b9bd5</Color>
+                              <Style>Solid</Style>
+                              <Width>6pt</Width>
+                            </Border>
+                            <BackgroundColor>#ffffcc</BackgroundColor>
+                          </Style>
+                        </Rectangle>
+                        <Rectangle Name="Frame2">
+                          <ReportItems>
+                            <Textbox Name="Info2">
+                              <KeepTogether>true</KeepTogether>
+                              <Paragraphs>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value />
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontWeight>Normal</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style>
+                                    <TextAlign>Left</TextAlign>
+                                  </Style>
+                                </Paragraph>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value />
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontWeight>Normal</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style>
+                                    <TextAlign>Left</TextAlign>
+                                  </Style>
+                                </Paragraph>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value />
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontWeight>Normal</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style>
+                                    <TextAlign>Left</TextAlign>
+                                  </Style>
+                                </Paragraph>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value />
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontWeight>Normal</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style>
+                                    <TextAlign>Left</TextAlign>
+                                  </Style>
+                                </Paragraph>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value>    Thẻ </Value>
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontSize>14pt</FontSize>
+                                        <FontWeight>Normal</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                    <TextRun>
+                                      <Value xml:space="preserve"> </Value>
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontSize>5pt</FontSize>
+                                        <FontWeight>Normal</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                    <TextRun>
+                                      <Value>đại biểu chỉ sử </Value>
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontSize>14pt</FontSize>
+                                        <FontWeight>Normal</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                    <TextRun>
+                                      <Value xml:space="preserve"> </Value>
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontSize>5pt</FontSize>
+                                        <FontWeight>Normal</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                    <TextRun>
+                                      <Value>dụng </Value>
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontSize>14pt</FontSize>
+                                        <FontWeight>Normal</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                    <TextRun>
+                                      <Value xml:space="preserve"> </Value>
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontSize>5pt</FontSize>
+                                        <FontWeight>Normal</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                    <TextRun>
+                                      <Value>trong Đại hội Đại biểu Công đoàn Công ty </Value>
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontSize>14pt</FontSize>
+                                        <FontWeight>Normal</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                    <TextRun>
+                                      <Value xml:space="preserve">  </Value>
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontSize>5pt</FontSize>
+                                        <FontWeight>Normal</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                    <TextRun>
+                                      <Value>Cổ </Value>
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontSize>14pt</FontSize>
+                                        <FontWeight>Normal</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                    <TextRun>
+                                      <Value xml:space="preserve">  </Value>
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontSize>5pt</FontSize>
+                                        <FontWeight>Normal</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                    <TextRun>
+                                      <Value>phần </Value>
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontSize>14pt</FontSize>
+                                        <FontWeight>Normal</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                    <TextRun>
+                                      <Value xml:space="preserve">  </Value>
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontSize>5pt</FontSize>
+                                        <FontWeight>Normal</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                    <TextRun>
+                                      <Value>Cấp </Value>
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontSize>14pt</FontSize>
+                                        <FontWeight>Normal</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                    <TextRun>
+                                      <Value xml:space="preserve">  </Value>
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontSize>5pt</FontSize>
+                                        <FontWeight>Normal</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                    <TextRun>
+                                      <Value>nước </Value>
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontSize>14pt</FontSize>
+                                        <FontWeight>Normal</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                    <TextRun>
+                                      <Value xml:space="preserve">  </Value>
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontSize>5pt</FontSize>
+                                        <FontWeight>Normal</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                    <TextRun>
+                                      <Value>Tân </Value>
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontSize>14pt</FontSize>
+                                        <FontWeight>Normal</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                    <TextRun>
+                                      <Value xml:space="preserve">  </Value>
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontSize>5pt</FontSize>
+                                        <FontWeight>Normal</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                    <TextRun>
+                                      <Value>Hòa nhiệm kỳ 2022 - 2027.
+    Thẻ </Value>
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontSize>14pt</FontSize>
+                                        <FontWeight>Normal</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                    <TextRun>
+                                      <Value xml:space="preserve"> </Value>
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontSize>5pt</FontSize>
+                                        <FontWeight>Normal</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                    <TextRun>
+                                      <Value>đại </Value>
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontSize>14pt</FontSize>
+                                        <FontWeight>Normal</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                    <TextRun>
+                                      <Value xml:space="preserve"> </Value>
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontSize>5pt</FontSize>
+                                        <FontWeight>Normal</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                    <TextRun>
+                                      <Value>biểu </Value>
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontSize>14pt</FontSize>
+                                        <FontWeight>Normal</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                    <TextRun>
+                                      <Value xml:space="preserve"> </Value>
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontSize>5pt</FontSize>
+                                        <FontWeight>Normal</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                    <TextRun>
+                                      <Value>được </Value>
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontSize>14pt</FontSize>
+                                        <FontWeight>Normal</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                    <TextRun>
+                                      <Value xml:space="preserve"> </Value>
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontSize>5pt</FontSize>
+                                        <FontWeight>Normal</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                    <TextRun>
+                                      <Value>sử </Value>
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontSize>14pt</FontSize>
+                                        <FontWeight>Normal</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                    <TextRun>
+                                      <Value xml:space="preserve"> </Value>
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontSize>5pt</FontSize>
+                                        <FontWeight>Normal</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                    <TextRun>
+                                      <Value>dụng </Value>
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontSize>14pt</FontSize>
+                                        <FontWeight>Normal</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                    <TextRun>
+                                      <Value xml:space="preserve"> </Value>
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontSize>5pt</FontSize>
+                                        <FontWeight>Normal</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                    <TextRun>
+                                      <Value>để điểm </Value>
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontSize>14pt</FontSize>
+                                        <FontWeight>Normal</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                    <TextRun>
+                                      <Value xml:space="preserve"> </Value>
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontSize>5pt</FontSize>
+                                        <FontWeight>Normal</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                    <TextRun>
+                                      <Value>danh </Value>
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontSize>14pt</FontSize>
+                                        <FontWeight>Normal</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                    <TextRun>
+                                      <Value xml:space="preserve">  </Value>
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontSize>5pt</FontSize>
+                                        <FontWeight>Normal</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                    <TextRun>
+                                      <Value>đại </Value>
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontSize>14pt</FontSize>
+                                        <FontWeight>Normal</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                    <TextRun>
+                                      <Value xml:space="preserve">  </Value>
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontSize>5pt</FontSize>
+                                        <FontWeight>Normal</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                    <TextRun>
+                                      <Value>biểu </Value>
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontSize>14pt</FontSize>
+                                        <FontWeight>Normal</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                    <TextRun>
+                                      <Value xml:space="preserve">  </Value>
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontSize>5pt</FontSize>
+                                        <FontWeight>Normal</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                    <TextRun>
+                                      <Value>khi </Value>
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontSize>14pt</FontSize>
+                                        <FontWeight>Normal</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                    <TextRun>
+                                      <Value xml:space="preserve">  </Value>
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontSize>5pt</FontSize>
+                                        <FontWeight>Normal</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                    <TextRun>
+                                      <Value>tham </Value>
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontSize>14pt</FontSize>
+                                        <FontWeight>Normal</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                    <TextRun>
+                                      <Value xml:space="preserve">  </Value>
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontSize>5pt</FontSize>
+                                        <FontWeight>Normal</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                    <TextRun>
+                                      <Value>dự đại hội.
+    Thẻ </Value>
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontSize>14pt</FontSize>
+                                        <FontWeight>Normal</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                    <TextRun>
+                                      <Value xml:space="preserve"> </Value>
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontSize>5pt</FontSize>
+                                        <FontWeight>Normal</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                    <TextRun>
+                                      <Value>đại </Value>
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontSize>14pt</FontSize>
+                                        <FontWeight>Normal</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                    <TextRun>
+                                      <Value xml:space="preserve"> </Value>
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontSize>5pt</FontSize>
+                                        <FontWeight>Normal</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                    <TextRun>
+                                      <Value>biểu </Value>
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontSize>14pt</FontSize>
+                                        <FontWeight>Normal</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                    <TextRun>
+                                      <Value xml:space="preserve"> </Value>
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontSize>5pt</FontSize>
+                                        <FontWeight>Normal</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                    <TextRun>
+                                      <Value>được </Value>
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontSize>14pt</FontSize>
+                                        <FontWeight>Normal</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                    <TextRun>
+                                      <Value xml:space="preserve"> </Value>
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontSize>5pt</FontSize>
+                                        <FontWeight>Normal</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                    <TextRun>
+                                      <Value>sử </Value>
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontSize>14pt</FontSize>
+                                        <FontWeight>Normal</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                    <TextRun>
+                                      <Value xml:space="preserve"> </Value>
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontSize>5pt</FontSize>
+                                        <FontWeight>Normal</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                    <TextRun>
+                                      <Value>dụng </Value>
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontSize>14pt</FontSize>
+                                        <FontWeight>Normal</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                    <TextRun>
+                                      <Value xml:space="preserve"> </Value>
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontSize>5pt</FontSize>
+                                        <FontWeight>Normal</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                    <TextRun>
+                                      <Value>để tiến hành </Value>
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontSize>14pt</FontSize>
+                                        <FontWeight>Normal</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                    <TextRun>
+                                      <Value xml:space="preserve"> </Value>
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontSize>5pt</FontSize>
+                                        <FontWeight>Normal</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                    <TextRun>
+                                      <Value>biểu </Value>
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontSize>14pt</FontSize>
+                                        <FontWeight>Normal</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                    <TextRun>
+                                      <Value xml:space="preserve"> </Value>
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontSize>5pt</FontSize>
+                                        <FontWeight>Normal</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                    <TextRun>
+                                      <Value>quyết </Value>
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontSize>14pt</FontSize>
+                                        <FontWeight>Normal</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                    <TextRun>
+                                      <Value xml:space="preserve"> </Value>
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontSize>5pt</FontSize>
+                                        <FontWeight>Normal</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                    <TextRun>
+                                      <Value>các </Value>
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontSize>14pt</FontSize>
+                                        <FontWeight>Normal</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                    <TextRun>
+                                      <Value xml:space="preserve"> </Value>
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontSize>5pt</FontSize>
+                                        <FontWeight>Normal</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                    <TextRun>
+                                      <Value>chỉ </Value>
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontSize>14pt</FontSize>
+                                        <FontWeight>Normal</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                    <TextRun>
+                                      <Value xml:space="preserve"> </Value>
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontSize>5pt</FontSize>
+                                        <FontWeight>Normal</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                    <TextRun>
+                                      <Value>tiêu, nội </Value>
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontSize>14pt</FontSize>
+                                        <FontWeight>Normal</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                    <TextRun>
+                                      <Value xml:space="preserve"> </Value>
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontSize>5pt</FontSize>
+                                        <FontWeight>Normal</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                    <TextRun>
+                                      <Value>dung, </Value>
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontSize>14pt</FontSize>
+                                        <FontWeight>Normal</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                    <TextRun>
+                                      <Value xml:space="preserve"> </Value>
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontSize>5pt</FontSize>
+                                        <FontWeight>Normal</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                    <TextRun>
+                                      <Value>nhân </Value>
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontSize>14pt</FontSize>
+                                        <FontWeight>Normal</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                    <TextRun>
+                                      <Value xml:space="preserve"> </Value>
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontSize>5pt</FontSize>
+                                        <FontWeight>Normal</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                    <TextRun>
+                                      <Value>sự </Value>
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontSize>14pt</FontSize>
+                                        <FontWeight>Normal</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                    <TextRun>
+                                      <Value xml:space="preserve"> </Value>
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontSize>5pt</FontSize>
+                                        <FontWeight>Normal</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                    <TextRun>
+                                      <Value>theo điều hành của Đoàn chủ tịch.</Value>
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontSize>14pt</FontSize>
+                                        <FontWeight>Normal</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style>
+                                    <TextAlign>Left</TextAlign>
+                                  </Style>
+                                </Paragraph>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value />
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontSize>14pt</FontSize>
+                                        <FontWeight>Normal</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style>
+                                    <TextAlign>Left</TextAlign>
+                                  </Style>
+                                </Paragraph>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value />
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontSize>14pt</FontSize>
+                                        <FontWeight>Normal</FontWeight>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style>
+                                    <TextAlign>Left</TextAlign>
+                                  </Style>
+                                </Paragraph>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value>                   QUÉT MÃ QR
+                  ĐỂ XEM TÀI LIỆU</Value>
+                                      <Style>
+                                        <FontFamily>Times New Roman</FontFamily>
+                                        <FontSize>14pt</FontSize>
+                                        <FontWeight>Bold</FontWeight>
+                                        <Color>#0070c0</Color>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style>
+                                    <TextAlign>Center</TextAlign>
+                                  </Style>
+                                </Paragraph>
+                              </Paragraphs>
+                              <Top>0.3cm</Top>
+                              <Left>0.3cm</Left>
+                              <Height>10.9cm</Height>
+                              <Width>6.9cm</Width>
+                              <Style>
+                                <Border>
+                                  <Style>None</Style>
+                                </Border>
+                                <PaddingLeft>2pt</PaddingLeft>
+                                <PaddingRight>2pt</PaddingRight>
+                                <PaddingTop>2pt</PaddingTop>
+                                <PaddingBottom>2pt</PaddingBottom>
+                              </Style>
+                            </Textbox>
+                            <Image Name="Image2">
+                              <Source>Embedded</Source>
+                              <Value>cdvn</Value>
+                              <MIMEType>image/jpeg</MIMEType>
+                              <Sizing>FitProportional</Sizing>
+                              <Top>0.5cm</Top>
+                              <Left>2cm</Left>
+                              <Height>1cm</Height>
+                              <Width>1cm</Width>
+                              <ZIndex>1</ZIndex>
+                              <Style>
+                                <Border>
+                                  <Style>None</Style>
+                                </Border>
+                              </Style>
+                            </Image>
+                            <Image Name="Image3">
+                              <Source>Embedded</Source>
+                              <Value>lgth</Value>
+                              <MIMEType>image/jpeg</MIMEType>
+                              <Sizing>FitProportional</Sizing>
+                              <Top>0.5cm</Top>
+                              <Left>4.5cm</Left>
+                              <Height>1cm</Height>
+                              <Width>1cm</Width>
+                              <ZIndex>2</ZIndex>
+                              <Style>
+                                <Border>
+                                  <Style>None</Style>
+                                </Border>
+                              </Style>
+                            </Image>
+                            <Image Name="Image4">
+                              <Source>Embedded</Source>
+                              <Value>tl</Value>
+                              <MIMEType>image/jpeg</MIMEType>
+                              <Sizing>FitProportional</Sizing>
+                              <Top>8.5cm</Top>
+                              <Left>0.3cm</Left>
+                              <Height>2.2cm</Height>
+                              <Width>2.2cm</Width>
+                              <ZIndex>3</ZIndex>
+                              <Style>
+                                <Border>
+                                  <Style>None</Style>
+                                </Border>
+                              </Style>
+                            </Image>
+                          </ReportItems>
+                          <KeepTogether>true</KeepTogether>
+                          <Top>1cm</Top>
+                          <Left>10.5cm</Left>
+                          <Height>11.5cm</Height>
+                          <Width>7.5cm</Width>
+                          <ZIndex>1</ZIndex>
+                          <Style>
+                            <Border>
+                              <Color>#5b9bd5</Color>
+                              <Style>Solid</Style>
+                              <Width>6pt</Width>
+                            </Border>
+                            <BackgroundColor>#ffffcc</BackgroundColor>
+                          </Style>
+                        </Rectangle>
+                      </ReportItems>
+                      <KeepTogether>true</KeepTogether>
+                      <Style>
+                        <Border>
+                          <Style>None</Style>
+                        </Border>
+                      </Style>
+                    </Rectangle>
+                    <rd:Selected>true</rd:Selected>
+                  </CellContents>
+                </TablixCell>
+              </TablixCells>
+            </TablixRow>
+          </TablixRows>
+        </TablixBody>
+        <TablixColumnHierarchy>
+          <TablixMembers>
+            <TablixMember />
+          </TablixMembers>
+        </TablixColumnHierarchy>
+        <TablixRowHierarchy>
+          <TablixMembers>
+            <TablixMember>
+              <Group Name="Details" />
+            </TablixMember>
+          </TablixMembers>
+        </TablixRowHierarchy>
+        <DataSetName>DiemDanh</DataSetName>
+        <Height>13.5cm</Height>
+        <Width>18.99999cm</Width>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+        </Style>
+      </Tablix>
+    </ReportItems>
+    <Height>13.5cm</Height>
+    <Style>
+      <Border>
+        <Style>None</Style>
+      </Border>
+    </Style>
+  </Body>
+  <Width>19cm</Width>
+  <Page>
+    <PageHeight>29.7cm</PageHeight>
+    <PageWidth>21cm</PageWidth>
+    <InteractiveHeight>29.7cm</InteractiveHeight>
+    <InteractiveWidth>21cm</InteractiveWidth>
+    <LeftMargin>1cm</LeftMargin>
+    <RightMargin>1cm</RightMargin>
+    <TopMargin>1cm</TopMargin>
+    <BottomMargin>1cm</BottomMargin>
+    <ColumnSpacing>0cm</ColumnSpacing>
+    <Style />
+  </Page>
+  <EmbeddedImages>
+    <EmbeddedImage Name="cdvn">
+      <MIMEType>image/png</MIMEType>
+      <ImageData>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
+SUVORK5CYII=</ImageData>
+    </EmbeddedImage>
+    <EmbeddedImage Name="lgth">
+      <MIMEType>image/png</MIMEType>
+      <ImageData>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</ImageData>
+    </EmbeddedImage>
+    <EmbeddedImage Name="tl">
+      <MIMEType>image/png</MIMEType>
+      <ImageData>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</ImageData>
+    </EmbeddedImage>
+  </EmbeddedImages>
+  <rd:ReportID>a5402a8e-14c7-491c-af58-1f7bfb37a180</rd:ReportID>
+  <rd:ReportUnitType>Cm</rd:ReportUnitType>
+</Report>
